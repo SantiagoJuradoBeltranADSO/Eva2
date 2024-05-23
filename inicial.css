@@ -1,0 +1,40 @@
+.titulo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+  .contenedor {
+            display: grid;
+            grid-template-rows: 1fr 1fr; /* Dos columnas iguales */
+  
+        }
+
+.ax{
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.columna{
+  margin-top: -200px;
+}
+a{
+     color: black; /* Color del texto de los enlaces */
+text-decoration: none; /* Quitar el subrayado de los enlaces */
+     display: inline-block; /* Hacer que el enlace se comporte como un elemento en línea de bloque */
+            padding: 10px 20px; /* Espaciado interno del botón */
+            background-color: #007BFF; /* Color de fondo del botón */
+            color: white; /* Color del texto */
+            text-decoration: none; /* Quitar el subrayado del texto */
+            border-radius: 5px; /* Bordes redondeados */
+            text-align: center; /* Centrar el texto dentro del botón */
+            transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+ul{
+ list-style-type: none;
+}
+body{
+  background-color: antiquewhite;
+}
