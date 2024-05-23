@@ -1,0 +1,7 @@
+{
+    "usuarios": [
+        {"nombre": "Juan", "edad": 30, "ciudad": "Madrid"},
+        {"nombre": "Ana", "edad": 25, "ciudad": "Barcelona"},
+        {"nombre": "Pedro", "edad": 35, "ciudad": "Valencia"}
+    ]
+}
